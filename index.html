@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day-1|CSS</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    
+    <!-- main div to group all contents -->
+    <div class="main">
+
+        <!-- Start group all navigation element  -->
+        <div class="nav">
+            <ul class="navbar clearfix">
+                <li class="logo"><a href="#">Logo</a></li>
+                <li>
+                    <div class="dropdown1">
+                        <a href="#">Contact</a>
+                        <div class="dropdown1-content">
+                            <a href="#">Twitter</a>
+                            <a href="#">Facebook</a>
+                            <div class="dropdown2">
+                                <a href="#">Other</a>
+                                <div class="dropdown2-content">
+                                    <a href="#">LinkedIn</a>
+                                    <a href="#">Instagram</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#" class="active">Home</a></li>
+            </ul>
+        </div>
+        <!-- End Navigation -->
+
+        <!-- Start do form elements -->
+        <div class="forms">
+            <form action="#">
+                <label for="fname">Full Name</label>
+                <input id="fname" type="text" name="fname">
+
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email">
+
+                <label for="pass">Password</label>
+                <input id="pass" type="password" name="pass">
+
+                <input type="button" value="Log In" >
+            </form>
+        </div>
+        <!-- End form elements -->
+    </div>
+
+    <!--  -->
+
+</body>
+</html>
